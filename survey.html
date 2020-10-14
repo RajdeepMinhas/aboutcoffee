@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>Survey</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+		<body> 
+			
+			<header>
+	<h1>All About Coffee</h1>	
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="roasting.html">Roasting</a></li>
+				<li><a href="grinding.html">Grinding</a></li>
+				<li><a href="brewing.html">Brewing</a></li>
+				<li><a href="drinks.html">Drinks</a></li>
+				<li><a href="survey.html">Coffee Survey</a></li>
+			</ul>
+		</nav>
+</header>		
+			
+			<h1>Coffee Survey</h1>
+			<!--<aside>
+			<figure>
+			<img src="images/coffee-cup.jpg" alt="cup of coffee" height="100" width="50"/>
+			</figure>
+			</aside>-->
+			<form action="cofffe-survey.php" method="get">
+			<fieldset>
+			<legend>Personal Information</legend>
+			<label for="name">Your Name</label><br>
+			<input type="text" name="name" id="name"  autofocus required/>
+			<br>
+			<label for="mail">Email Address</label><br>
+			<input type="email" name="email" id="mail" required placeholder=""/>
+			</fieldset>
+			<fieldset>
+			<legend>Your coffee preferences:</legend>
+			Tell us your coffee method.<br>
+			<textarea name="preparation" cols="40" rows="6"></textarea><br><br>
+			
+			<label for="radio">Do you grind your own beans?</label><br>
+			<br><input type="radio" name="radio" id="radio"/>Yes<br>
+			<input type="radio" name="radio" id="radio"/>No<br><br>
+			
+			<label for="check">How do you drink your coffee</label><br>
+			<input type="checkbox" name="cbox" value="cream" id="check">with cream<br>
+			<input type="checkbox" name="cbox" id="check">with sugar<br>
+			<br>
+			<label for="drop" >What is your favourite coffee drink</label>
+			<select name="favdrink" id="drop">
+			<option value="">please select a drink</option>
+			<option value="c1">drip coffee</option>
+			<option value="c2">french press</option>
+			<option value="c3">espresso</option>
+			<option value="c4">latte</option>
+			</select>
+			<br>
+			<br>
+				<input id= "submit" type="submit" value="Submit" align="center"/>
+			</fieldset>
+			</form>
+			
+				
+			<footer>
+				<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="roasting.html">Roasting</a></li>
+				<li><a href="grinding.html">Grinding</a></li>
+				<li><a href="brewing.html">Brewing</a></li>
+				<li><a href="drinks.html">Drinks</a></li>
+				<li><a href="survey.html">Coffee Survey</a></li>
+			</ul>
+		</nav>
+			</footer>
+		</body>
+</html>
